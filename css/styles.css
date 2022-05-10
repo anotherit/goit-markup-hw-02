@@ -1,0 +1,94 @@
+.body {
+    font-family: 'Roboto', 'Raleway';
+}
+
+.logo {
+    position: absolute ;
+    width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+    text-decoration: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        
+            color: #2196F3;
+}
+.logoright {
+    color: black;
+}
+.logofooter {
+    position: absolute;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 2157px;
+    text-decoration: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+       
+    
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
+}
+.header {position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    
+
+}
+.navigation  {
+    
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    
+}
+#studio  {
+    position: absolute;
+        width: 49px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+    
+    
+        
+}
+
+
+#portfolio    {
+position: absolute;
+    width: 77px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+}
+#contacts {
+    position: absolute;
+    width: 68px;
+        height: 16px;
+        left: 679px;
+        top: 32px;
+}
+.navigation :hover{
+    color: #2196F3;
+}
+<!-- На працює ховер -->
+
