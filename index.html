@@ -53,39 +53,53 @@
 					</li>
 				</ul>
 			</nav>
-			<ul>
+			<ul class="mail-and-tel">
 				<li>
 					<a
+						class="mail"
+						id="mail"
 						href="mailto:info@devstudio.com"
 						>info@devstudio.com</a
 					>
 				</li>
 				<li>
-					<a href="tel:+380961111111"
+					<a
+						class="tel"
+						id="tel"
+						href="tel:+380961111111"
 						>+38 096 111 11 11</a
 					>
 				</li>
 			</ul>
 		</header>
 		<main>
-			<section>
-				<h1>
+			<section class="container">
+				<h1 class="slogan">
 					Эффективные решения<br />
 					для вашего бизнеса
 				</h1>
-				<button type="button">
-					Заказать услугу
+				<button
+					class="first-button"
+					type="button"
+				>
+					<span id="button-text"
+						>Заказать услугу</span
+					>
 				</button>
 			</section>
-			<\
-			<section>
-				<!-- тут треба сховати заголовок за доп. css-->
-				<h2>Преимущества</h2>
 
-				<ul>
+			<section class="section">
+				<!-- тут треба сховати заголовок за доп. css-->
+				<h2 class="hidden">
+					Преимущества
+				</h2>
+
+				<ul class="row">
 					<li>
-						<h3>Внимание к деталям</h3>
-						<p>
+						<h3 id="detail">
+							Внимание к деталям
+						</h3>
+						<p id="detail-text">
 							Идейные соображения, а
 							также начало повседневной
 							работы по формированию
@@ -93,8 +107,10 @@
 						</p>
 					</li>
 					<li>
-						<h3>Пунктуальность</h3>
-						<p>
+						<h3 id="punctuality">
+							Пунктуальность
+						</h3>
+						<p id="punctuality-text">
 							Задача организации, в
 							особенности же рамки и
 							место обучения кадров
@@ -102,8 +118,10 @@
 						</p>
 					</li>
 					<li>
-						<h3>Планирование</h3>
-						<p>
+						<h3 id="planning">
+							Планирование
+						</h3>
+						<p id="planning-text">
 							Равным образом
 							консультация с широким
 							активом в значительной
@@ -111,10 +129,10 @@
 						</p>
 					</li>
 					<li>
-						<h3>
+						<h3 id="technologies">
 							Современные технологии
 						</h3>
-						<p>
+						<p id="technologies-text">
 							Значимость этих проблем
 							настолько очевидна, что
 							реализация плановых
@@ -123,28 +141,33 @@
 					</li>
 				</ul>
 			</section>
-			<section>
-				<h2>Чем мы занимаемся</h2>
-				<ul>
-					<li>
+			<section class="box">
+				<h2 id="subtitle">
+					Чем мы занимаемся
+				</h2>
+				<ul class="items">
+					<li id="codding">
 						<img
 							src="./images/codding.jpg"
 							alt="Парень кодит на айпаде"
 							width="370"
+							height="294"
 						/>
 					</li>
-					<li>
+					<li id="girl">
 						<img
 							src="./images/girl-with-phone.jpg"
 							alt="Девушка делает макет своего телефона"
 							width="370"
+							height="294"
 						/>
 					</li>
-					<li>
+					<li id="hands">
 						<img
 							src="./images/hands-with-ipad.jpg"
 							alt="Парень смотрит на пиктограму в планшете"
 							width="370"
+							height="294"
 						/>
 					</li>
 				</ul>
