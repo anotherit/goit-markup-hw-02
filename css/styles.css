@@ -87,7 +87,14 @@ font-family:var(--secondary-font);
 .site-nav:hover,
 :focus {
     color: var(--accent-cl);   
+
 }
+.current{
+    color: var(--accent-cl);
+}
+
+
+
 .header{
     background-color: var(--main-bg-cl);
 }
@@ -95,13 +102,19 @@ font-family:var(--secondary-font);
     display: none;
 }
 /*section container*/
-.button{
+.hero.button{
 background-color:var(--btn-bg-cl);
 color:#ffffff;
 border: #2196F3;
 font-size: 16px;
-
 }
+.hero.button:hover{
+background-color:  #188CE8;
+}
+.hero.button:focus {
+    background-color: #188CE8;
+}
+
 /* hero */
 .hero{
     background-color: var(--secondary-bg-cl);
@@ -112,8 +125,6 @@ font-size: 16px;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #ffffff;
-}
-.hero-title{   
 }
 /* Преимущества */
 .section-title{
@@ -196,3 +207,39 @@ section.team{
     color: var(--accent-cl);
 }
 
+/* portfolio */
+.examples.link a{
+    text-decoration: none;
+    
+}
+.examples h2 {
+    color: var(--main-txt-cl);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.examples p{
+    color: var(--secondary-txt-cl);
+    font-size: 16px;
+        line-height: 1.88;
+        
+}
+
+/* buttons */
+.features button{
+    background-color: var(--section-bg-cl);
+    border: var(--section-bg-cl);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        
+    
+        text-align: center;
+
+}
+.features button:hover{
+    background-color: var(--btn-bg-cl);
+    border: var(--btn-bg-cl);
+    color: var(--main-bg-cl);
+}
