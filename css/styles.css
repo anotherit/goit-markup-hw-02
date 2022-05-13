@@ -13,18 +13,14 @@
 --secondary-bg-cl:#2F303A;
 --btn-bg-cl: #2196F3;
 --section-bg-cl:#F5F4FA;
-
-
 }
 body{
     font-family: var(--main-font);
     font-size: 14px;
-    letter-spacing:0,03em;
-    position: absolute;
+    letter-spacing:0.03em;
     color:var(--main-txt-cl) ;
     background-color: var(--main-bg-cl);
-    font-weight: 400;
-    font-style: normal;
+    
     
 
 /*logo*/
@@ -36,17 +32,18 @@ font-family:var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     
 
     
 
 }
-.logo .logoright{
+.logoright{
     color: var(--main-txt-cl);
 
     
 }
-.footer.logoright{
+.footer-logoright{
     color: var(--main-bg-cl);
 }
 
@@ -56,26 +53,20 @@ font-family:var(--secondary-font);
     
 }
 /*header*/
-.contacts .link {
+.contacts-text{
     color: var(--secondary-txt-cl);
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        font-size: 14px;
+        
 }
 
-.mail.link:focus {
+.contacts-text:focus {
     color: var(--accent-cl);
 }
 
-.mail.link:hover {
-    color: var(--accent-cl);
-}
-
-.tel.link:focus {
-    color: var(--accent-cl);
-}
-
-.tel.link:hover {
+.contacts-text:hover {
     color: var(--accent-cl);
 }
 .site-nav{
@@ -83,11 +74,14 @@ font-family:var(--secondary-font);
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        
 }
-.site-nav:hover,
-:focus {
+.site-nav:hover{
     color: var(--accent-cl);   
 
+}
+.site-nav:focus{
+    color: var(--accent-cl);
 }
 .current{
     color: var(--accent-cl);
@@ -102,23 +96,27 @@ font-family:var(--secondary-font);
     display: none;
 }
 /*section container*/
-.hero.button{
+.hero-button{
 background-color:var(--btn-bg-cl);
 color:#ffffff;
 border: #2196F3;
 font-size: 16px;
+letter-spacing: 0.06em;
 }
-.hero.button:hover{
+.hero-button:hover{
 background-color:  #188CE8;
 }
-.hero.button:focus {
+.hero-button:focus {
     background-color: #188CE8;
 }
 
 /* hero */
 .hero{
     background-color: var(--secondary-bg-cl);
-        font-weight: 900;
+        
+}
+.hero-title{
+    font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         text-align: center;
@@ -126,36 +124,48 @@ background-color:  #188CE8;
         text-transform: uppercase;
         color: #ffffff;
 }
+.button-text{
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+color: var(--main-bg-cl);
+}
 /* Преимущества */
 .section-title{
 color: var(--main-txt-cl);
-    font-weight: 700;
+    font-size: 14px;
+font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
 }
 .text{
     color:var(--secondary-txt-cl);
-        font-weight: 400;
         line-height: 1.71;
        
 }
 /* Чем мы занимаемся */
-.box.title{
+.box-title{
     color: var(--main-txt-cl);
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
+        letter-spacing: 0.03em;
 }
-section.team{
+.section-team{
     background-color: var(--section-bg-cl);
 }
-.team.title{
+.team-title{
     color: var(--main-txt-cl);
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
+        letter-spacing:0.03em;
 }
 .team-name{
     color: var(--main-txt-cl);
@@ -163,18 +173,20 @@ section.team{
         font-size: 16px;
         line-height: 1.9;   
         text-align: center;
+        letter-spacing: 0.03em;
 }
-.team.text{
+.team-text{
     color: var(--secondary-txt-cl);
     font-size: 16px;
         line-height: 1.9;             
         text-align: center;
+        letter-spacing: 0.03em;
 }
 .footer{
     background-color: var(--secondary-bg-cl);
 }
-/* не працює letter-spac. */
-.link.text{
+
+.address{
     font-style: normal;
     
 }
@@ -208,37 +220,43 @@ section.team{
 }
 
 /* portfolio */
-.examples.link a{
+.examples{
     text-decoration: none;
     
 }
-.examples h2 {
+.examples-title{
     color: var(--main-txt-cl);
     font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+       
 }
-.examples p{
+.examples-text{
     color: var(--secondary-txt-cl);
     font-size: 16px;
         line-height: 1.88;
+        letter-spacing: 0.03em;
         
 }
 
 /* buttons */
-.features button{
+.features-button{
     background-color: var(--section-bg-cl);
     border: var(--section-bg-cl);
     font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
-        
-    
         text-align: center;
-
+        letter-spacing: 0.03em;
 }
-.features button:hover{
+.features-button:hover{
+    background-color: var(--btn-bg-cl);
+    border: var(--btn-bg-cl);
+    color: var(--main-bg-cl);
+    cursor: pointer;
+}
+.features-button:focus {
     background-color: var(--btn-bg-cl);
     border: var(--btn-bg-cl);
     color: var(--main-bg-cl);
